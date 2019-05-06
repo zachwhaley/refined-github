@@ -19,7 +19,6 @@ new OptionsSync().define({
 				.replace('hide-readme-header', '') // #1883
 				.replace(/commented-menu-item|yours-menu-item/, 'global-discussion-list-filters') // #1883
 				.replace('show-recently-pushed-branches-on-more-pages', 'recently-pushed-branches-enhancements') // #1909
-				.replace('fix-squash-and-merge-message', '') // #1934
 				.replace('fix-squash-and-merge-title', 'sync-pr-commit-title') // #1934
 			; // eslint-disable-line semi-style
 		},
